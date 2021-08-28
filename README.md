@@ -42,7 +42,7 @@ Workspace settings override user settings. Workspace settings are specific to a 
 
 The Workspace `settings.json` file can be seen in the `.vscode` folder of this repo.
 
-The User `settings.json` is configured as - the personal preference of one developer:
+The User `settings.json` is configured as (the personal preference of one developer):
 ```
 {
     "editor.minimap.enabled": false,
