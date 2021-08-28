@@ -47,13 +47,13 @@ The User `settings.json` is configured as (the personal preference of one develo
 {
     "editor.minimap.enabled": false,
     "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
     "terminal.integrated.defaultProfile.osx": "zsh",
     "editor.autoClosingQuotes": "never",
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingDelete": "never",
     "html.autoClosingTags": false,
     "javascript.autoClosingTags": false,
-    "typescript.autoClosingTags": false,
-    "explorer.confirmDragAndDrop": false
+    "typescript.autoClosingTags": false
 }
 ```
