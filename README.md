@@ -1,7 +1,11 @@
 The repository gives examples of using vscode with different languages.
 
 ### Assumptions
-This doument assumes you already have `vscode`, `python` and `node` installed and you are using OSX.
+This doument assumes you are running on OSX and have the following installed:
+- `vscode`
+- `python3`
+- `node`
+- `npm`
 
 ### Keyboard shortcuts
 ```
@@ -22,12 +26,12 @@ interpreter it finds in the system path. To select a specific python
 environment, use the Python: Select Interpreter command from the 
 Command Palette (⇧⌘P).
 
-### Settings up node
+### Setting up node
 ```
 cd node; npm install
 ```
 
-### User and Workspace Settings
+### User and Workspace settings
 
 The workspace `settings.json` can be seen in the `.vscode` folder of this repo.
 
