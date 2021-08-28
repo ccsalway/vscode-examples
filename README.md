@@ -33,9 +33,16 @@ cd node; npm install
 
 ### User and Workspace settings
 
-The workspace `settings.json` can be seen in the `.vscode` folder of this repo.
+Workspace settings override user settings. Workspace settings are specific to a project and can be shared across developers on a project.  You can also have more than one root folder in a VS Code workspace through a feature called Multi-root workspaces.
 
-The user `settings.json` is as configured as:
+- `Workspace` - Settings stored inside your workspace and only apply when the workspace is opened.
+- `User` - Settings that apply globally to any instance of VS Code you open.
+- `Default` - Contains all default settings which are applied globally.
+
+
+The Workspace `settings.json` file can be seen in the `.vscode` folder of this repo.
+
+The User `settings.json` is configured as - the personal preference of one developer:
 ```
 {
     "editor.minimap.enabled": false,
