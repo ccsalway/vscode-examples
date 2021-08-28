@@ -1,13 +1,15 @@
-The repository gives exampls of using vscode with different languages.
+The repository gives examples of using vscode with different languages.
 
-## Assumptions
-This doumentassums you already have `vscode`, `python` and `node` installed.
+### Assumptions
+This doument assumes you already have `vscode`, `python` and `node` installed and you are using OSX.
 
+### Keyboard shortcuts
+```
 Format Document: option + shift + f
 Optimize Imports: option + shift + o
+```
 
----------
-Setting up `python`
+### Setting up python
 ```
 python3 -m venv python/.venv
 source python/.venv/bin/activate
@@ -15,19 +17,21 @@ python -m pip install --upgrade pip
 pip install -r python/requirements.txt
 ```
 
-By default, the Python extension looks for and uses the first Python 
+By default, the vscode Python extension looks for and uses the first Python 
 interpreter it finds in the system path. To select a specific python 
 environment, use the Python: Select Interpreter command from the 
 Command Palette (⇧⌘P).
 
----------
-Settings up `node`
+### Settings up node
 ```
 cd node; npm install
 ```
 
----------
-The user `settings.json` is as follows
+### User and Workspace Settings
+
+The workspace `settings.json` can be seen in the `.vscode` folder of this repo.
+
+The user `settings.json` is as configured as:
 ```
 {
     "editor.minimap.enabled": false,
