@@ -1,4 +1,4 @@
-The repository gives examples of using vscode with different languages.
+This repository gives examples of using vscode with different languages.
 
 ### Assumptions
 This doument assumes you are running on OSX and have the following installed:
