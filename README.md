@@ -45,13 +45,13 @@ The Workspace `settings.json` file can be seen in the `.vscode` folder of this r
 The User `settings.json` is configured as (the personal preference of one developer):
 ```
 {
-    "editor.minimap.enabled": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.defaultProfile.osx": "zsh",
+    "editor.minimap.enabled": false,
     "editor.autoClosingQuotes": "never",
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingDelete": "never",
+    "terminal.integrated.defaultProfile.osx": "zsh",
     "html.autoClosingTags": false,
     "javascript.autoClosingTags": false,
     "typescript.autoClosingTags": false
