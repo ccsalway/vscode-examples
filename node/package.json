@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example for settingss in vscode",
+  "author": "Christian Salway",
+  "license": "ISC",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --trace-warnings app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "log-timestamp": "^0.3.0",
+    "aws-sdk": "^2.978.0"
+  }
+}
